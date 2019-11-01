@@ -1,16 +1,25 @@
 {
-	"miniprogramRoot": "miniprogram/",
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"enhance": true
+		"autoAudits": false,
+		"checkInvalidKey": true
 	},
-	"appid": "wx8ac0626dd35dbb6c",
-	"projectname": "program",
-	"libVersion": "2.8.1",
+	"compileType": "miniprogram",
+	"libVersion": "2.7.1",
+	"appid": "wx44a8878d2bb8c7d8",
+	"projectname": "MiniProgram",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -27,6 +36,7 @@
 			"list": []
 		},
 		"game": {
+			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
@@ -34,8 +44,9 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"name": "分类界面",
+					"pathName": "pages/category/category",
+					"scene": null
 				}
 			]
 		}

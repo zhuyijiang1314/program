@@ -1,14 +1,46 @@
 {
   "pages": [
-  "pages/index/index"
-  
+    "pages/home/home",
+    "pages/order/order",
+    "pages/news/news",
+    "pages/my/my"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#00BC8D",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "F4F5F9",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "enablePullDownRefresh": false
   },
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "selectedColor": "#00BC8D",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/tab_hone_default.png ",
+        "selectedIconPath":"assets/tabbar/tab_hone_Selection.png" 
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "运单",
+        "iconPath": "assets/tabbar/tab_hone_default.png ",
+        "selectedIconPath": "assets/tabbar/tab_hone_Selection.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "assets/tabbar/tab_hone_default.png ",
+        "selectedIconPath": "assets/tabbar/tab_hone_Selection.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "assets/tabbar/tab_hone_default.png ",
+        "selectedIconPath": "assets/tabbar/tab_hone_Selection.png"
+      }
+    ]
+  }
+  
 }
